@@ -1,0 +1,48 @@
+QWidget{
+    background-color : rgba(0,0,0,0.4);
+}
+
+QLabel {
+/* 文本颜色设置为白色 */
+color: white;
+width:100%;
+
+/* 字体大小设置（根据45px宽度调整） */
+font-size: 12px;  /* 这是建议值，可根据实际字体和内容调整 */
+
+/* 可选：设置文本居中显示 */
+qproperty-alignment: AlignCenter;
+
+/* 可选：设置背景色（如果需要） */
+background-color: transparent;  /* 默认透明，可根据需要修改 */
+
+/* 可选：设置边距（如果需要） */
+padding: 0px;  /* 可根据需要调整 */
+}
+
+QSlider::vertical {
+/* 垂直滑块的整体样式 */
+height: 80px;  /* 可根据需要调整高度 */
+width: 10px;    /* 滑块轨道宽度 */
+}
+
+/* 已滑过部分的样式（蓝色背景） */
+QSlider::groove:vertical {
+background-color:blue;  /* 未滑过部分的默认颜色（灰色） */
+border-radius: 6px;        /* 轨道圆角（可选） */
+}
+
+QSlider::sub-page:vertical {
+background-color: #E0E0E0 ;     /* 已滑过部分的蓝色背景 */
+border-radius: 6px;        /* 圆角（可选） */
+}
+
+/* 滑块（thumb）样式 */
+QSlider::handle:vertical {
+width: 10px;                /* 滑块宽度 */
+height: 10px;               /* 滑块高度 */
+background-color: white;    /* 滑块颜色（白色） */
+border: 1px solid gray;     /* 边框（可选） */
+border-radius: 10px;        /* 圆形滑块（关键设置） */
+margin: -5px 0;             /* 微调滑块位置（避免被轨道覆盖） */
+}
