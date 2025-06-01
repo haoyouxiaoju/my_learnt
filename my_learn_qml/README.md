@@ -33,27 +33,3 @@
 [Qt6 QML Book: A Detailed Guide to Using Qt](https://www.qt.io/product/qt6/qml-book)
 
 [免费编程课程 |Qt Academy 课程目录](https://www.qt.io/academy/course-catalog)
-
-学习进度
-
-##### day_01--2025/4/20 
-
-观看第1~6章,完成初识qml
-
-##### day_02--2025/4/21
-
-完成6~7章结束
-
-##### day_03\day_04\day_05--2025/4/25
-
-8-10章,布局内容没多看,第九章的自定义控件倒是收获很多,对比qtwidget我个人认为更加操作简单,而且官方文档也非常详细的有自定义控件的模板.[自定义 Qt Quick Controls |Qt 快速控制 |Qt 6.9.0 版本](https://doc.qt.io/qt-6/qtquickcontrols-customize.html#creating-a-custom-style).同时在看canvas时想起自己也写过一个验证码的控件,于是自己使用qml复刻了一下,非常期待后面的内容
-
-##### day06-8--2025/5/2
-
-gridView和PathView就没看
-
-findImage:QML多界面切换太多了不想写和改
-
-##### day09 --2025/5/4
-
-结束--后面没怎么写,qt6的变化还是太大了
